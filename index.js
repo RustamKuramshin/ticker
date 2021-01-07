@@ -16,7 +16,7 @@ const log = SimpleNodeLogger.createSimpleLogger(opts);
 // Параметры запроса
 const reqOptions = {
     method: 'POST',
-    url: 'https://fcm.googleapis.com/fcm/send',
+    url: '',
     headers: {
         'Content-Type': 'application/json',
         'Authorization': ''
