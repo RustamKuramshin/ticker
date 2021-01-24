@@ -1,0 +1,13 @@
+[Unit]
+Description=Ticker service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/env node /usr/local/bin/ticker/index.js --interval 5000
+
+[Install]
+WantedBy=multi-user.target
