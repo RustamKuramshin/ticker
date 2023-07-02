@@ -19,7 +19,7 @@ const reqOptions = {
     url: 'https://fcm.googleapis.com/fcm/send',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': ''
+        'Authorization': 'key=AAAApcEbDUo:APA91bGT5kz1952X9CPJW2cizL0a6lnQM9mFRfR2-Ctip6XXqHB35Y9TlKr05GqyEmWPIj1yX6KIvw4qitPkaCFscOGk1A379XUOyqUP--7gr0Ynv_wm4_z678-amN-XDAxLqmF0l227'
     },
     body: JSON.stringify({
         "condition": "('testTopic' in topics)",
